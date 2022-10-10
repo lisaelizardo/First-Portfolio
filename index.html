@@ -2,34 +2,45 @@
 <html lang="en">
     <head>
         <title>First-Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="./first-portfolio/style.css">
-    </head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li>About Me</li>
-                    <li>My Work</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-            <h1>Alissa Elizardo</h1>
-            <img src=".images/me.jpg" alt="Selfie of Alissa Elizardo">
-        </header>
-        <main>
-            <section>
-                <h2>About Me</h2>
+          <nav class="topnav">
+                <header><h1>Alissa Elizardo</h1></header>
+              <ul class="right-side">
+                  <a class="active" href="#About-Me">About Me</a>
+                  <a class="active" href="#My-Work">My Work</a>
+                  <a class="active" href="#Contact">Contact</a>
+                  <a class="active" href="#Resume">Resume</a>
+              </ul>
+          </nav>
+          </header>
+          <div>
+            <img class="stripes" src="images/stripes-pattern-textile-abstract-geometric.jpg">
+            <img class="self" src="images/me.jpg" alt="Selfie of Alissa Elizardo">
+          </div>
+          <main>
+            <section id="About-Me">
+                <header><h2>About Me</h2></header>
                 <p>My name is Alissa Elizardo, I am a mother of two. I have decided to live up to my love of learning and add Coding to my list. So far it is working out great. I'm struggling, but it wouldn't be worth it without.</p>
             </section>
-            <section>
-                <h2>My Work</h2>
-
+            <section id="My-Work">
+                <header><h2>My Work</h2></header>
+                <div class="box-1"></div>
+                <div class="box-2"></div>
+                <div class="box-3"></div>
+                <div class="box-4"></div>
             </section>
-            <section>
-                <h2>Contact</h2>
-                <span>Alissa Elizardo</span>
-                <span>lisaelizardo@gmail.com</span>
-                <span>469-355-5705</span>
+            <section id="Contact">
+              <header><h2>Contact</h2></header>
+                <ul style="list-style-type: none;">
+                  <li>Alissa Elizardo</li>
+                  <li>lisaelizardo@gmail.com</li>
+                  <li>469-355-5705</li>
+                </ul>
 
             </section>
 

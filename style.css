@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.topnav {
+    display: flex;
+    background-color: rgb(50, 49, 49);
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.active {
+    font-family: Arial;
+    font-size: medium;
+    text-underline-position: below;
+    color:rgb(82, 193, 187);
+}    
+
+body {
+    font-family: Arial;
+    margin:0;
+    flex-direction: column;
+}
+
+.box-1 {
+    height: 200px;
+    width: 300px;
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.box-2 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 2px solid black;
+}
+
+.box-3 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.box-4 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    position: absolute;
+}
+
+.self {
+    width: 150px;
+    float: left;
+}
+
+.stripes {
+        width: 100%;
+        height: 200px;
+        background-size: 100% 100%;
+}
+
+header {
+    padding: 10px;
+    color: rgb(1, 54, 68);
+    background: rgb(82, 193, 187);
+    height: auto;
+    text-align: center;
+}
+
+header header {
+    padding: 3px;
+    margin: 4px 8px;
+    font-size: larger;
+}
+
+.About-Me {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.My-Work {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.Contact {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+}
+
